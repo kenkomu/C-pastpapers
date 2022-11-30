@@ -51,8 +51,5 @@ int main ()
 	Triangle triangle(2.0,5.0);
 	cout <<"Area of rectangle is: "<< rectangle.area() << endl;
 	cout <<"Area of triangle is: "<< triangle.area() << endl;
-
-
-	system("pause");
 	return 0;
 }
