@@ -24,9 +24,6 @@ public:
 		this->phoneNumber=phoneNumber;
 	}
 
-
-
-
 	string getNumber(){
 		return number;
 	}
@@ -36,14 +33,7 @@ public:
 	string getPhoneNumber(){
 		return phoneNumber;
 	}
-
-
 };
-
-
-
-
-
 
 int main(){
 	string number;
@@ -56,26 +46,14 @@ int main(){
 	getline(cin,name);
 	cout<<"Enter Student Phone Number: ";
 	getline(cin,phoneNumber);
-	
-
 
 	Student student;
 	student.setNumber(number);
 	student.setName(name);
 	student.setPhoneNumber(phoneNumber);
-
-
-
-
 	cout<<"Student Number: "<<student.getNumber()<<"\n";
 	cout<<"Student Name: "<<student.getName()<<"\n";
 	cout<<"Student Phone Number: "<<student.getPhoneNumber()<<"\n";
-
-
-
-
 	getline(cin,number);
 	return 0;
-
-
 }
